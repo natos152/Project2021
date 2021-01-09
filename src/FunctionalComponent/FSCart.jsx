@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 function Cart(props) {
     return (
         <div style={{ textAlign: 'center', marginTop: 10 }}>
+            <h1>Cart Area: </h1> 
             <h4 style={{ textAlign: 'center' }}>Your Cart</h4>
             <div style={{ marginLeft: 775, border: '3px solid', width: 200, fontWeight: 'normal' }}>
                 {props.CartItems.map((cart, index) =>
